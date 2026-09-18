@@ -19,20 +19,20 @@ const productos = [
  
 {
     id: 1,
-    nombre: "Lenovo IdeaPad 3",
+    nombre: "Portátil HP Victus Gamer AMD Ryzen 7",
     categoria: "Portátiles",
-    precio: 1899000,
-    imagen: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
-    descripcion: "Portátil Lenovo ideal para trabajo, estudio y uso diario."
+    precio: 2890000,
+    imagen: "imagenes/hpvictus15.jpg",
+    descripcion: "Portátil Gamer AMD Ryzen 7 - NVIDIA RTX 3050 - SSD 512GB - Windows 11"
 },
 
 {
     id: 2,
-    nombre: "HP 15",
+    nombre: "Portátil HP Intel Core i3",
     categoria: "Portátiles",
-    precio: 2199000,
-    imagen: "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=800&q=80",
-    descripcion: "Portátil HP de 15 pulgadas para trabajo y entretenimiento."
+    precio: 1700000,
+    imagen: "imagenes/hpcorei3.jpg",
+    descripcion: "Portátil HP Intel Core i3 - 16GB - SSD 512GB - Windows 11"
 },
 
 {
@@ -64,17 +64,17 @@ const productos = [
 
 {
     id: 6,
-    nombre: "iPhone",
-    categoria: "Celulares",
-    precio: 2999000,
-    imagen: "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=800&q=80",
-    descripcion: "Smartphone de última generación."
+    nombre: "PC Gamer Power X18",
+    categoria: "PCGamer",
+    precio: 4000000,
+    imagen: "imagenes/pcgamerx18.jpg",
+    descripcion: "PC Gamer Power X18."
 },
 
 {
     id: 7,
     nombre: "PC Gamer",
-    categoria: "Computadores",
+    categoria: "PCGamer",
     precio: 4599000,
     imagen: "https://images.unsplash.com/photo-1587202372634-32705e3bf49c?auto=format&fit=crop&w=800&q=80",
     descripcion: "Computador de escritorio para gaming y alto rendimiento."
@@ -82,11 +82,11 @@ const productos = [
 
 {
     id: 8,
-    nombre: "Audífonos Bluetooth",
-    categoria: "Accesorios",
-    precio: 199900,
-    imagen: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
-    descripcion: "Audífonos inalámbricos Bluetooth."
+    nombre: "Torre Gamer Intel Core i3",
+    categoria: "PCGamer",
+    precio: 2000000,
+    imagen: "imagenes/torregamerpower.jpg",
+    descripcion: "Torre Gamer Intel Core i3."
 },
 
 {
@@ -100,11 +100,11 @@ const productos = [
 
 {
     id: 10,
-    nombre: "Audífonos Bluetooth",
-    categoria: "Accesorios",
-    precio: 199900,
-    imagen: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
-    descripcion: "Audífonos inalámbricos Bluetooth."
+    nombre: "Tablet Lenovo con Lapiz",
+    categoria: "Tablets",
+    precio: 830000,
+    imagen: "imagenes/tabletm11.jpg",
+    descripcion: "Pantalla 11'' Ram 8GB Rom 128GB Wifi/Simcard."
 },
 
 {
@@ -127,20 +127,20 @@ const productos = [
 
 {
     id: 13,
-    nombre: "Audífonos Bluetooth",
-    categoria: "Accesorios",
-    precio: 199900,
-    imagen: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
-    descripcion: "Audífonos inalámbricos Bluetooth."
+    nombre: "Mini parlante Bluetooth WS-887",
+    categoria: "Audio",
+    precio: 20000,
+    imagen: "imagenes/parlantews887.jpg",
+    descripcion: "Parlante Bluetooth - Radio FM - Conexión USB."
 },
 
 {
     id: 14,
-    nombre: "Audífonos Bluetooth",
-    categoria: "Accesorios",
-    precio: 199900,
-    imagen: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
-    descripcion: "Audífonos inalámbricos Bluetooth."
+    nombre: "Parlante Bluetooth KTS-1057",
+    categoria: "Audio",
+    precio: 20000,
+    imagen: "imagenes/parlantekts.jpg",
+    descripcion: "Parlante Bluetooth - Radio FM - Conexión USB."
 },
 
 {
@@ -154,6 +154,114 @@ const productos = [
 
 {
     id: 16,
+    nombre: "HP 15",
+    categoria: "Portátiles",
+    precio: 2199000,
+    imagen: "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=800&q=80",
+    descripcion: "Portátil HP de 15 pulgadas para trabajo y entretenimiento."
+},
+
+{
+    id: 17,
+    nombre: "Control inalambrico para PS4",
+    categoria: "Videojuegos",
+    precio: 80000,
+    imagen: "imagenes/controlps4.jpg",
+    descripcion: "Control inalambrico para PS4, tambien funciona para PC y Celular."
+},
+
+{
+    id: 18,
+    nombre: "Auriculares Gamer Redragon Ares H120",
+    categoria: "Perifericos",
+    precio: 70000,
+    imagen: "imagenes/redragonares.jpg",
+    descripcion: "Auriculares con cable para commputador con micrófono."
+},
+
+{
+    id: 19,
+    nombre: "Mouse genius con cable DX-120",
+    categoria: "Perifericos",
+    precio: 27000,
+    imagen: "imagenes/mousegenius.jpg",
+    descripcion: "Mouse genius con cable DX-120. Sensor 1200 DPI."
+},
+
+{
+    id: 20,
+    nombre: "Mouse Logitech con cable M-90",
+    categoria: "Perifericos",
+    precio: 30000,
+    imagen: "imagenes/logitechm90.jpg",
+    descripcion: "Mouse Logitech con cable M-90."
+},
+
+{
+    id: 21,
+    nombre: "Soporte para celular espejo de moto M3B",
+    categoria: "Accesorios",
+    precio: 20000,
+    imagen: "imagenes/soportem3b.jpg",
+    descripcion: "Soporte para celular espejo de moto M3B."
+},
+
+{
+    id: 22,
+    nombre: "Funda silicona para iphone 6,7,8,8+,X,XS,11,12,13,14,15,16,17",
+    categoria: "Accesorios",
+    precio: 15000,
+    imagen: "imagenes/fundaiphone.jpg",
+    descripcion: "Funda silicona para iphone 6,7,8,8+,X,XS,11,12,13,14,15,16,17"
+},
+
+{
+    id: 23,
+    nombre: "Cargador de iPhone 5W con cable",
+    categoria: "Accesorios",
+    precio: 25000,
+    imagen: "imagenes/cargaiphone5w.jpg",
+    descripcion: "Cargador de iPhone 5W con cable."
+},
+
+{
+    id: 24,
+    nombre: "Cabeza cargador de iPhone 25W 1.1",
+    categoria: "Accesorios",
+    precio: 25000,
+    imagen: "imagenes/cabezaiphone25w.jpg",
+    descripcion: "Cabeza cargador de iPhone 25W 1.1"
+},
+
+{
+    id: 25,
+    nombre: "Cargador de iPhone carga rapida con cable",
+    categoria: "Accesorios",
+    precio: 37000,
+    imagen: "imagenes/cargaiphonecompleto.jpg",
+    descripcion: "Cargador de iPhone con cable 25W 1.1"
+},
+
+{
+    id: 26,
+    nombre: "Audifonos de cable S5 manoslibres",
+    categoria: "Accesorios",
+    precio: 7000,
+    imagen: "imagenes/audifonoss5.jpg",
+    descripcion: "Audifonos de cable S5 manoslibres."
+},
+
+{
+    id: 27,
+    nombre: "HP 15",
+    categoria: "Portátiles",
+    precio: 2199000,
+    imagen: "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=800&q=80",
+    descripcion: "Portátil HP de 15 pulgadas para trabajo y entretenimiento."
+},
+
+{
+    id: 28,
     nombre: "HP 15",
     categoria: "Portátiles",
     precio: 2199000,
