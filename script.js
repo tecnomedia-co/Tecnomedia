@@ -68,7 +68,7 @@ const productos = [
     categoria: "PCGamer",
     precio: 2450000,
     imagen: "imagenes/pcgamerx18.jpg",
-    descripcion: "AMD Ryzen 5 5600G- Ram 16GB -SSD 512GB M.2 - Pantalla de 23.6 Pulgadas."
+    descripcion: "AMD Ryzen 5 5600GT- Ram 16GB -SSD 512GB M.2 - Pantalla de 23.8 Pulgadas."
 },
 
 {
@@ -91,29 +91,29 @@ const productos = [
 
 {
     id: 9,
-    nombre: "Tablet Lenovo",
+    nombre: "Tablet Lenovo Tab one 4GB 64GB WIFI",
     categoria: "Tablets",
     precio: 530000,
     imagen: "imagenes/Tablet.jpg",
-    descripcion: "Pantalla 8'' Ram 4GB Rom 64GB Wifi."
+    descripcion: "TB305FU Pantalla 8'' Ram 4GB Rom 64GB Wifi."
 },
 
 {
     id: 10,
-    nombre: "Tablet Lenovo con Lapiz",
+    nombre: "Tablet Lenovo IDEA TAB con Lapiz 6GB 128GB SIMCARD 5G",
     categoria: "Tablets",
-    precio: 830000,
+    precio: 1175000,
     imagen: "imagenes/tabletm11.jpg",
-    descripcion: "Pantalla 11'' Ram 8GB Rom 128GB Wifi/Simcard."
+    descripcion: "TB336ZU Pantalla 11'' Ram 6GB Rom 128GB Wifi/Simcard 5G."
 },
 
 {
     id: 11,
-    nombre: "Audífonos Bluetooth",
-    categoria: "Accesorios",
-    precio: 199900,
-    imagen: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
-    descripcion: "Audífonos inalámbricos Bluetooth."
+    nombre: "Televisor Samsung Smart TV de 43'' Pulgadas",
+    categoria: "Televisores",
+    precio: 1390000,
+    imagen: "imagenes/tvsamsung43.jpg",
+    descripcion: "Televisor Samsung Smart TV de 43'' Pulgadas."
 },
 
 {
