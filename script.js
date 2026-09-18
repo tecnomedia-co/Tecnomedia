@@ -19,74 +19,74 @@ const productos = [
  
 {
     id: 1,
-    nombre: "Portátil HP Victus Gamer AMD Ryzen 7",
+    nombre: "Portátil HP Intel Core i3",
     categoria: "Portátiles",
-    precio: 2890000,
-    imagen: "imagenes/hpvictus15.jpg",
-    descripcion: "Portátil Gamer AMD Ryzen 7 - NVIDIA RTX 3050 - SSD 512GB - Windows 11"
+    precio: 1650000,
+    imagen: "imagenes/hpcorei3.jpg",
+    descripcion: "Portátil HP Intel Core i3 - 16GB - SSD 512GB - Windows 11."
 },
 
 {
     id: 2,
-    nombre: "Portátil HP Intel Core i3",
+    nombre: "Portátil DELL Intel Core i5",
     categoria: "Portátiles",
-    precio: 1700000,
-    imagen: "imagenes/hpcorei3.jpg",
-    descripcion: "Portátil HP Intel Core i3 - 16GB - SSD 512GB - Windows 11"
+    precio: 2000000,
+    imagen: "imagenes/dell1.jpg",
+    descripcion: "Portátil DELL Intel Core i5-1334U - 8GB - SSD 512GB - Windows 11."
 },
 
 {
     id: 3,
-    nombre: "Monitor 24 pulgadas",
-    categoria: "Monitores",
-    precio: 699900,
-    imagen: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=800&q=80",
-    descripcion: "Monitor Full HD de 24 pulgadas."
+    nombre: "Portátil Lenovo V15 AMD Ryzen 5",
+    categoria: "Portátiles",
+    precio: 1890000,
+    imagen: "imagenes/lenovov15.jpg",
+    descripcion: "AMD Ryzen 5-7520U - 16GB - SSD 512GB M.2-Windows 11."
 },
 
 {
     id: 4,
-    nombre: "Mouse inalámbrico",
-    categoria: "Accesorios",
-    precio: 89900,
-    imagen: "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=800&q=80",
-    descripcion: "Mouse inalámbrico para computador portátil o de escritorio."
+    nombre: "Portátil HP Victus Gamer AMD Ryzen 7",
+    categoria: "Portátiles",
+    precio: 2890000,
+    imagen: "imagenes/hpvictus15.jpg",
+    descripcion: "Portátil Gamer AMD Ryzen 7 - NVIDIA RTX 3050 - SSD 512GB - Windows 11."
 },
 
 {
     id: 5,
-    nombre: "Teclado inalámbrico",
-    categoria: "Accesorios",
-    precio: 129900,
-    imagen: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
-    descripcion: "Teclado inalámbrico para oficina y hogar."
+    nombre: "Mini torre Acer NUC N150",
+    categoria: "Computadores",
+    precio: 1570000,
+    imagen: "imagenes/acernuc1.jpg",
+    descripcion: "Intel N150-Ram 8GB-SSD 512GB M.2-Windows 11."
 },
 
 {
     id: 6,
     nombre: "PC Gamer Power X18",
     categoria: "PCGamer",
-    precio: 4000000,
+    precio: 2450000,
     imagen: "imagenes/pcgamerx18.jpg",
-    descripcion: "PC Gamer Power X18."
+    descripcion: "AMD Ryzen 5 5600G- Ram 16GB -SSD 512GB M.2 - Pantalla de 23.6 Pulgadas."
 },
 
 {
     id: 7,
-    nombre: "PC Gamer",
+    nombre: "PC Gamer Core i5 14600KF Nvidia RTX 5050 8GB",
     categoria: "PCGamer",
-    precio: 4599000,
+    precio: 4250000,
     imagen: "https://images.unsplash.com/photo-1587202372634-32705e3bf49c?auto=format&fit=crop&w=800&q=80",
-    descripcion: "Computador de escritorio para gaming y alto rendimiento."
+    descripcion: "Intel Core i5-14600KF - Ram 16GB - SSD 512GB M.2 - NVIDIA RTX 5050 8GB - Refrigeración Liquida."
 },
 
 {
     id: 8,
-    nombre: "Torre Gamer Intel Core i3",
+    nombre: "Torre Gamer Intel Core i3-10400T",
     categoria: "PCGamer",
-    precio: 2000000,
+    precio: 1890000,
     imagen: "imagenes/torregamerpower.jpg",
-    descripcion: "Torre Gamer Intel Core i3."
+    descripcion: "Intel Core i3-10400T - Ram 8GB - SSD 250GB M.2 - Windows 11."
 },
 
 {
