@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ 
+<title>Tecnomedia</title>
+
+<meta name="description" content="Tecnomedia - Tecnología, computadores, portátiles y accesorios.">
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Iconos -->
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+ 
+
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header class="header">
+
+ 
+<div class="header-container">
+
+    <!-- LOGO -->
+    <a href="index.html" class="logo">
+        Tecnomedia
+    </a>
+
+    <!-- BUSCADOR -->
+    <div class="search-container">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Buscar productos..."
+            autocomplete="off"
+        >
+
+        <button id="searchButton">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+    </div>
+
+    <!-- CUENTA Y CARRITO -->
+    <div class="header-right">
+
+        <a href="#" id="accountButton">
+            <i class="fa-regular fa-user"></i>
+            Mi cuenta
+        </a>
+
+        <span class="separator">|</span>
+
+        <a href="#" id="cartButton">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Carrito
+            <span id="cartCount">0</span>
+        </a>
+
+    </div>
+
+</div>
+ 
+
+</header>
+
+<!-- ================= CATEGORÍAS ================= -->
+
+<nav class="category-nav">
+
+ 
+<div class="category-container">
+
+    <a href="#" data-category="Todos">Todos</a>
+
+    <a href="#" data-category="Portátiles">Portátiles</a>
+
+    <a href="#" data-category="Computadores">Computadores</a>
+
+    <a href="#" data-category="PCGamer">PCGamer</a>
+
+    <a href="#" data-category="TV">TV</a>
+
+    <a href="#" data-category="Videojuegos">Videojuegos</a>
+
+    <a href="#" data-category="Audio">Audio</a>
+
+    <a href="#" data-category="Celulares">Celulares</a>
+
+    <a href="#" data-category="Tablets">Tablets</a>
+
+    <a href="#" data-category="Monitores">Monitores</a>
+
+    <a href="#" data-category="Componentes">Componentes</a>
+
+    <a href="#" data-category="Hogar">Belleza</a>
+
+    <a href="#" data-category="Hogar">Hogar</a>
+
+    <a href="#" data-category="Accesorios">Accesorios</a>
+
+</div>
+ 
+
+</nav>
+
+
+
+<!-- ================= CATÁLOGO ================= -->
+
+<main id="catalogo" class="catalog-container">
+
+ 
+<div class="section-title">
+
+    <h2>Productos</h2>
+
+    <p id="productResult">
+        Nuestros productos
+    </p>
+
+</div>
+
+<!-- PRODUCTOS GENERADOS POR JAVASCRIPT -->
+<div id="productGrid" class="product-grid"></div>
+ 
+
+</main>
+
+<!-- ================= CARRITO ================= -->
+
+<div id="cartOverlay" class="cart-overlay"></div>
+
+<aside id="cartPanel" class="cart-panel">
+
+ 
+<div class="cart-header">
+
+    <h2>Mi carrito</h2>
+
+    <button id="closeCart">
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+
+</div>
+
+<div id="cartItems" class="cart-items">
+
+    <!-- Productos del carrito -->
+
+</div>
+
+<div class="cart-footer">
+
+    <div class="cart-total">
+
+        <span>Total:</span>
+
+        <strong id="cartTotal">
+            $0
+        </strong>
+
+    </div>
+
+    <button id="checkoutButton" class="checkout-button">
+        Realizar pedido por WhatsApp
+    </button>
+
+</div>
+ 
+
+</aside>
+
+
+<!-- ================= BANNER ================= -->
+
+<section class="hero">
+
+ 
+<div class="hero-content">
+
+    <h1>Tecnología para todos</h1>
+
+    <p>
+        Encuentra computadores, portátiles, celulares y accesorios
+        para tus necesidades.
+    </p>
+
+    <a href="#catalogo" class="hero-button">
+        Ver productos
+    </a>
+
+</div>
+ 
+
+</section>
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+ 
+<div class="footer-container">
+
+    <div class="footer-column">
+
+        <h3>Tecnomedia</h3>
+
+        <p>
+            Tecnología para todos.
+            Encuentra productos tecnológicos
+            para tu hogar, trabajo y entretenimiento.
+        </p>
+
+    </div>
+
+
+    <div class="footer-column">
+
+        <h3>Información</h3>
+
+        <a href="quienes-somos.html">
+            Quiénes somos
+        </a>
+
+        <a href="contacto.html">
+            Contáctanos
+        </a>
+
+    </div>
+
+
+    <div class="footer-column">
+
+        <h3>Información legal</h3>
+
+        <a href="privacidad.html">
+            Política de privacidad
+        </a>
+
+        <a href="terminos.html">
+            Términos y condiciones
+        </a>
+
+        <a href="garantia.html">
+            Política de garantía
+        </a>
+
+    </div>
+
+
+    <div class="footer-column">
+
+        <h3>Contacto</h3>
+
+        <p>
+            <i class="fa-solid fa-phone"></i>
+            +57 300 000 0000
+        </p>
+
+        <p>
+            <i class="fa-solid fa-envelope"></i>
+            contacto@tecnomedia.com
+        </p>
+
+        <p>
+            <i class="fa-solid fa-location-dot"></i>
+            Cali, Colombia
+        </p>
+
+    </div>
+
+</div>
+
+
+<div class="footer-bottom">
+
+    <p>
+        © 2026 Tecnomedia. Todos los derechos reservados.
+    </p>
+
+</div>
+ 
+
+</footer>
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
